@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8615a3e1d949dfc6798749584af6f331 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8615a3e1d949dfc6798749584af6f331" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8615a3e1d949dfc6798749584af6f331 = L.map(
+                "map_8615a3e1d949dfc6798749584af6f331",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0d08c4ed522b57a3f79e70218f5cc17c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0d08c4ed522b57a3f79e70218f5cc17c.addTo(map_8615a3e1d949dfc6798749584af6f331);
+        
+    
+            var marker_b5e6c07d1396eac868f7694d278bcd78 = L.marker(
+                [48.85341, 2.3488],
+                {
+}
+            ).addTo(map_8615a3e1d949dfc6798749584af6f331);
+        
+    
+            var icon_cc27f066dad93ca7a4c0b096d89da0af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a97d82f333fab9c4e6feca416d6ca25 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e0b082d068a83ce44d285a61f1492a3 = $(`<div id="html_7e0b082d068a83ce44d285a61f1492a3" style="width: 100.0%; height: 100.0%;"><b>Amelie</b> - Jean-Pierre Jeunet<br> -2001</b></div>`)[0];
+                popup_7a97d82f333fab9c4e6feca416d6ca25.setContent(html_7e0b082d068a83ce44d285a61f1492a3);
+            
+        
+
+        marker_b5e6c07d1396eac868f7694d278bcd78.bindPopup(popup_7a97d82f333fab9c4e6feca416d6ca25)
+        ;
+
+        
+    
+    
+                marker_b5e6c07d1396eac868f7694d278bcd78.setIcon(icon_cc27f066dad93ca7a4c0b096d89da0af);
+            
+    
+            var marker_0a899f20d2173aec1edad61a7e7da2bb = L.marker(
+                [43.70649, -79.39864],
+                {
+}
+            ).addTo(map_8615a3e1d949dfc6798749584af6f331);
+        
+    
+            var icon_451b50ea0d4b2d01dd3f5dbb6cb9cc36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_521c8e2e4d00d329c4b67bdeb66baad0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4989b92bbe2855790b62319b9ddc4995 = $(`<div id="html_4989b92bbe2855790b62319b9ddc4995" style="width: 100.0%; height: 100.0%;"><b>The Shape of Water</b> - Guillermo del Toro<br> -2017</b></div>`)[0];
+                popup_521c8e2e4d00d329c4b67bdeb66baad0.setContent(html_4989b92bbe2855790b62319b9ddc4995);
+            
+        
+
+        marker_0a899f20d2173aec1edad61a7e7da2bb.bindPopup(popup_521c8e2e4d00d329c4b67bdeb66baad0)
+        ;
+
+        
+    
+    
+                marker_0a899f20d2173aec1edad61a7e7da2bb.setIcon(icon_451b50ea0d4b2d01dd3f5dbb6cb9cc36);
+            
+    
+            var marker_937d9bde26877df3edf19e3a74e1bdc8 = L.marker(
+                [43.769562, 11.255814],
+                {
+}
+            ).addTo(map_8615a3e1d949dfc6798749584af6f331);
+        
+    
+            var icon_69d161932b317f490fb3dfbdeb987185 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42aefb9cd7dca4c9d7f1a10e8c46722b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf7f39b4f97679355793a86a4473e74f = $(`<div id="html_bf7f39b4f97679355793a86a4473e74f" style="width: 100.0%; height: 100.0%;"><b>La vita e bella</b> - Roberto Benigni<br> -1997</b></div>`)[0];
+                popup_42aefb9cd7dca4c9d7f1a10e8c46722b.setContent(html_bf7f39b4f97679355793a86a4473e74f);
+            
+        
+
+        marker_937d9bde26877df3edf19e3a74e1bdc8.bindPopup(popup_42aefb9cd7dca4c9d7f1a10e8c46722b)
+        ;
+
+        
+    
+    
+                marker_937d9bde26877df3edf19e3a74e1bdc8.setIcon(icon_69d161932b317f490fb3dfbdeb987185);
+            
+    
+            var marker_2ef5bb0b4dca520064afc079c43b3ec9 = L.marker(
+                [52.237049, 21.017532],
+                {
+}
+            ).addTo(map_8615a3e1d949dfc6798749584af6f331);
+        
+    
+            var icon_2daab2c69deee35ce01640b174e40f99 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe029936045c4bd230f476288bf5daca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25a0365b89a2dec799147ff35c6d790b = $(`<div id="html_25a0365b89a2dec799147ff35c6d790b" style="width: 100.0%; height: 100.0%;"><b>The Pianist</b> - Roman Polanski<br> -2002</b></div>`)[0];
+                popup_fe029936045c4bd230f476288bf5daca.setContent(html_25a0365b89a2dec799147ff35c6d790b);
+            
+        
+
+        marker_2ef5bb0b4dca520064afc079c43b3ec9.bindPopup(popup_fe029936045c4bd230f476288bf5daca)
+        ;
+
+        
+    
+    
+                marker_2ef5bb0b4dca520064afc079c43b3ec9.setIcon(icon_2daab2c69deee35ce01640b174e40f99);
+            
+    
+            var marker_c2388521c61e3685fe09d5335c48f597 = L.marker(
+                [48.20849, 16.37208],
+                {
+}
+            ).addTo(map_8615a3e1d949dfc6798749584af6f331);
+        
+    
+            var icon_5730734a090d12bbbe4a9694e7690c36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec46b817b650b528d418baf1f83b039b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b40ced6dc9e2cbd706c826118584063 = $(`<div id="html_8b40ced6dc9e2cbd706c826118584063" style="width: 100.0%; height: 100.0%;"><b>Before Sunrise</b> - Richard Linklater<br> -1995</b></div>`)[0];
+                popup_ec46b817b650b528d418baf1f83b039b.setContent(html_8b40ced6dc9e2cbd706c826118584063);
+            
+        
+
+        marker_c2388521c61e3685fe09d5335c48f597.bindPopup(popup_ec46b817b650b528d418baf1f83b039b)
+        ;
+
+        
+    
+    
+                marker_c2388521c61e3685fe09d5335c48f597.setIcon(icon_5730734a090d12bbbe4a9694e7690c36);
+            
+</script>
+</html>
